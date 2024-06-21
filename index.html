@@ -6,33 +6,54 @@
     <title>АНО "Единство"</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5dc; }
-        header, footer { background-color: #00A859; color: #fff; padding: 10px 0; text-align: center; width: 100%; }
-        nav { display: flex; justify-content: center; background-color: #0072BB; }
+        header { background-color: #0072BB; color: #fff; padding: 10px 0; text-align: center; width: 100%; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .header-top div { display: flex; align-items: center; }
+        .header-top img { height: 60px; margin-right: 20px; }
+        .header-bottom { background-color: #00A859; padding: 10px 0; }
+        nav { display: flex; justify-content: center; background-color: #00A859; }
         nav a { color: white; padding: 14px 20px; text-decoration: none; }
         nav a:hover { background-color: #ffffff; color: #000; }
         .content { padding: 20px; }
         .banner { background: url('banner.jpg') no-repeat center center; height: 300px; background-size: cover; }
         .section { margin-bottom: 20px; }
         .section h2 { margin-top: 0; }
-        .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 5px 0; }
         .image { text-align: center; margin: 20px 0; }
         .image img { max-width: 100px; height: auto; }
         .footer-note { font-size: 0.9em; color: #777; }
+        .contact-info { text-align: left; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>АНО "Единство"</h1>
-    <p>Контактный телефон: +7 (919) 155-3818 | Email: edinstvo@mail.ru</p>
+    <div class="header-top">
+        <div>
+            <img src="logo.png" alt="Логотип">
+            <div class="contact-info">
+                <p>450022, РБ, г. Уфа, ул. Менделеева, д. 136, к.2</p>
+                <p>Телефон горячей линии +7 (347) 286 51 94</p>
+                <p>e-mail: anoizgelek@mail.ru</p>
+            </div>
+        </div>
+        <div>
+            <a href="#">Карта сайта</a>
+            <a href="#">Версия для слабовидящих</a>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <h1>АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ ЦЕНТР СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ НАСЕЛЕНИЯ "ИЗГЕЛЕК" (ДОБРОДЕЯНИЕ)</h1>
+    </div>
 </header>
 
 <nav>
     <a href="#home">Главная</a>
-    <a href="#about">О нас</a>
-    <a href="#services">Услуги</a>
     <a href="#news">Новости</a>
+    <a href="#about">О центре</a>
+    <a href="#services">Услуги</a>
+    <a href="#gallery">Фотогалерея</a>
     <a href="#contact">Контакты</a>
+    <a href="#faq">Часто задаваемые вопросы</a>
 </nav>
 
 <div class="banner"></div>
